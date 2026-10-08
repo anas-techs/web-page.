@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #e9ebf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 560px;
+    height: 350px;
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.welcome-section {
+    width: 50%;
+    background: linear-gradient(135deg, #ff9f00, #ff4930);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-icon {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.welcome-section h1 {
+    font-size: 27px;
+    margin-bottom: 18px;
+}
+
+.welcome-section p {
+    font-size: 11px;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    width: 105px;
+    height: 34px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn i {
+    margin-right: 5px;
+}
+
+.login-btn:hover {
+    background: white;
+    color: #ff5132;
+}
+
+.signup-section {
+    width: 50%;
+    background: #fff;
+    padding: 20px 30px;
+}
+
+.signup-section h2 {
+    text-align: center;
+    font-size: 27px;
+    color: #171717;
+    margin-bottom: 12px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-bottom: 15px;
+}
+
+.social-icons i {
+    font-size: 14px;
+    color: #151515;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    color: #ff4930;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.or span {
+    width: 90px;
+    height: 1px;
+    background: #ddd;
+}
+
+.or p {
+    color: #ccc;
+    font-size: 11px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    height: 28px;
+    border: none;
+    background: #f1f1f1;
+    padding: 0 10px;
+    margin-bottom: 9px;
+    outline: none;
+    font-size: 10px;
+}
+
+form input::placeholder {
+    color: #999;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 9px;
+    color: #aaa;
+    margin: 4px 0 20px;
+}
+
+.terms input {
+    width: 12px;
+    height: 12px;
+}
+
+.register-btn {
+    width: 100%;
+    height: 32px;
+    border: none;
+    background: #ff4930;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+    background: #e83b25;
+}
